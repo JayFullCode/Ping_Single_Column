@@ -15,3 +15,8 @@ input.addEventListener('input', function (e){
    input.style.borderColor = "rgba(77, 123, 243, 0.3)";
    input.style.color = "rgba(77, 123, 243, 0.8)";
 });
+
+window.addEventListener('click', function (e){
+    input.style.borderColor = "rgba(77, 123, 243, 0.3)";
+    input.style.color = "rgba(77, 123, 243, 0.8)";
+});
