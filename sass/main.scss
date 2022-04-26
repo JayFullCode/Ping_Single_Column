@@ -1,0 +1,24 @@
+//************* UTILS ***********//
+
+@import "utils/variables";
+@import "utils/mixins";
+
+//************ VENDORS **********//
+
+//************* BASE ************//
+
+@import "base/main";
+
+//************* LAYOUT **********//
+
+@import "layout/footer";
+
+//*********** COMPONENTS ********//
+
+@import "components/header";
+@import "components/search";
+@import "components/dashboard";
+
+//************* PAGES ***********//
+
+//************* THEMES **********//

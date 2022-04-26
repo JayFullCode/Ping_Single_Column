@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+  margin: auto;
+
+  padding: 5em 0;
+  position: relative;
+
+  max-width: 900px;
+}

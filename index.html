@@ -4,31 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <script src="https://kit.fontawesome.com/8a686341d0.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="sass/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  We are launching soon!
+<section class="header">
+  <img src="images/logo.svg" alt="Logo icon" class="header__logo">
+  <h1 class="header__title">
+    We are launching <span>soon!</span>
+  </h1>
 
-  Subscribe and get notified
+  <p class="header__content">
+    Susbcribe and get notified
+  </p>
+</section>
 
-  Notify Me
+<div class="search">
+  <form>
+    <input class="search__input" placeholder="Your email address">
+    <button class="search__button">Notify Me</button>
+  </form>
+</div>
 
-  &copy; Copyright Ping. All rights reserved.
+<div class="dashboard">
+  <img src="images/illustration-dashboard.png" alt="Dashboard image">
+</div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+<div class="footer">
+  <ul>
+    <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+  </ul>
+
+  <p>Copyright Ping, All rights reserved.</p>
+</div>
+
+
 </body>
 </html>

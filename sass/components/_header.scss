@@ -1,0 +1,41 @@
+.header{
+  width: 100%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1em;
+
+  &__logo{
+    margin-bottom: 3em;
+  }
+
+  &__title{
+    margin: 0 0 1em 0;
+    color: rgba(0,0,0,0.5);
+    font-weight: normal;
+
+    span{
+      color: rgba(0,0,0,1);
+      font-weight: bolder;
+    }
+  }
+
+  &__content{
+    margin: 0;
+  }
+}
+
+@include desktop-only(){
+  .header{
+
+    &__title{
+      font-size: 4em;
+      margin-bottom: .5em;
+    }
+
+  }
+}
